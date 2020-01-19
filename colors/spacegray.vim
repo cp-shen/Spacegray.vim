@@ -106,24 +106,24 @@ hi PmenuThumb      ctermbg=235  ctermfg=137    guibg=NONE     guifg=#171717  cte
 hi WildMenu        ctermbg=110  ctermfg=235    guibg=#8FAFD7  guifg=#141617  cterm=bold      gui=bold
 
 if g:spacegray_low_contrast
-  hi StatusLine         ctermbg=236 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-  hi StatusLineTerm     ctermbg=236 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
+  hi StatusLine         ctermbg=236 ctermfg=249 guibg=#21252b guifg=#21252b cterm=NONE   gui=NONE
+  hi StatusLineTerm     ctermbg=236 ctermfg=249 guibg=#21252b guifg=#21252b cterm=NONE   gui=NONE
   if g:spacegray_use_italics
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
+    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#21252b guifg=#21252b cterm=italic gui=italic
+    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#21252b guifg=#21252b cterm=italic gui=italic
   else
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
+    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#21252b guifg=#21252b cterm=NONE   gui=NONE
+    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#21252b guifg=#21252b cterm=NONE   gui=NONE
   endif
 else
-    hi StatusLine       ctermbg=235 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-    hi StatusLineTerm   ctermbg=235 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
+    hi StatusLine       ctermbg=235 ctermfg=249 guibg=#21252b guifg=#21252b cterm=NONE   gui=NONE
+    hi StatusLineTerm   ctermbg=235 ctermfg=249 guibg=#21252b guifg=#21252b cterm=NONE   gui=NONE
   if g:spacegray_use_italics
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
+    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#21252b guifg=#21252b cterm=italic gui=italic
+    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#21252b guifg=#21252b cterm=italic gui=italic
   else
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
+    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#21252b guifg=#21252b cterm=NONE   gui=NONE
+    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#21252b guifg=#21252b cterm=NONE   gui=NONE
   endif
 endif
 
@@ -136,7 +136,7 @@ hi VisualNOS       ctermbg=8    ctermfg=NONE   guibg=NONE     guifg=NONE     cte
 hi FoldColumn      ctermbg=NONE ctermfg=242    guibg=#1C1C1C  guifg=#6C6C6C  cterm=NONE      gui=NONE
 hi Folded          ctermbg=NONE ctermfg=242    guibg=#1C1C1C  guifg=#6C6C6C  cterm=NONE      gui=NONE
 
-hi VertSplit       ctermbg=232  ctermfg=232    guibg=#1C1F20  guifg=#1C1F20  cterm=NONE      gui=NONE
+hi VertSplit       ctermbg=232  ctermfg=232    guibg=#21252b  guifg=#21252b  cterm=NONE      gui=NONE
 
 hi IncSearch       ctermbg=9    ctermfg=0      guibg=#AF5F5F  guifg=#141617  cterm=NONE      gui=NONE
 if g:spacegray_underline_search
